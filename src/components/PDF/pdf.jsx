@@ -44,7 +44,7 @@ function pdf() {
       margin: 10,
       padding: 10,
       flexGrow: 1,
-      border:'2px solid black',
+      border: "2px solid black",
     },
     mainHeader: {
       textAlign: "center",
@@ -97,7 +97,6 @@ function pdf() {
       fontFamily: "Roboto Thin",
     },
   });
-
   return (
     <PDFViewer style={{ width: "100%", height: "100dvh" }}>
       <Document>
@@ -113,10 +112,597 @@ function pdf() {
         </Page>
         <Page
           size="A4"
-          style={[styles.page, { flexDirection: "row" }]}
+          style={[styles.page, { flexDirection: "row", fontSize: "11px" }]}
           orientation="landscape"
         >
           <View style={styles.section}>
+            <View
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+                fontFamily: "Roboto Regular",
+              }}
+            >
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text>TEST</Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Rapor Tarihi
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    4.03.2024
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      IEC Standardı
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    60840
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      3
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Test Sistemi
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Jiangsu Shenghua
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      4
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Jeneratör Gücü
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    132 kVA (prime)
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                    position: "relative",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "60px",
+                        paddingTop: "2px",
+                        paddingTop:'22px'
+                      }}
+                    >
+                      5
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "60px",
+                        paddingTop:'22px'
+                      }}
+                    >
+                      Gerilim Tatbik Noktası
+                    </Text>
+                  </View>
+                  <View style={{ width: "160px",borderLeft:'1px solid black',height: "60px",
+                        paddingTop: "2px", }}>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderBottom:'1px solid black',
+                        width:'169px',
+                        height:'20px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",height: "18px",
+                          paddingTop: "0px",
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(-1px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",height: "20px",
+                        paddingTop: "2px",
+                        borderBottom:'1px solid black',
+                        width:'169px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop:'-2px'
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(-1px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        width:'169px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(0px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text>KABLO</Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Üretici Firma
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    PRYSMIAN
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Kapasitans
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    170 nF/km
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      4
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Jeneratör Gücü
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    132 kVA (prime)
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                    position: "relative",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",height: "60px",
+                        paddingTop: "2px",
+                        paddingTop:'22px'
+                      }}
+                    >
+                      5
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",height: "60px",
+                        paddingTop:'22px'
+                      }}
+                    >
+                      Gerilim Tatbik Noktası
+                    </Text>
+                  </View>
+                  <View style={{ width: "160px",borderLeft:'1px solid black',height: "60px",
+                        paddingTop: "2px", }}>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderBottom:'1px solid black',
+                        width:'169px',
+                        height:'20px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",height: "18px",
+                          paddingTop: "0px",
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(-1px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",height: "20px",
+                        paddingTop: "2px",
+                        borderBottom:'1px solid black',
+                        width:'169px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop:'-2px'
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(-1px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        width:'169px'
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                        }}
+                      >
+                        MERAM GIS TM
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft:'1px solid black',
+                          height:'22px',
+                          paddingTop:'3.5px',
+                          paddingLeft:'7px',
+                          paddingRight:'7px',
+                          transform:'translateY(0px)'
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
             <Text style={styles.pageCounter}>2/7</Text>
           </View>
         </Page>
