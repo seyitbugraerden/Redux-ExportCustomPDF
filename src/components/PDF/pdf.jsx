@@ -45,6 +45,7 @@ function pdf() {
       padding: 10,
       flexGrow: 1,
       border: "2px solid black",
+      fontSize: "11px",
     },
     mainHeader: {
       textAlign: "center",
@@ -169,7 +170,8 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
@@ -190,7 +192,8 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "20px",
+                        paddingLeft: "5px",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -200,7 +203,8 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "20px",
+                        textAlign: "left",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -210,7 +214,8 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
@@ -231,7 +236,8 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "20px",
+                        paddingLeft: "5px",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -241,7 +247,8 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "20px",
+                        textAlign: "left",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -251,7 +258,8 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
@@ -272,7 +280,8 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "20px",
+                        paddingLeft: "5px",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -282,7 +291,8 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "20px",
+                        textAlign: "left",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -292,11 +302,56 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
                     132 kVA (prime)
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      5
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Gerilim Tatbik Noktası
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    MERAM GIS TM
                   </Text>
                 </View>
                 <View
@@ -314,9 +369,10 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "60px",
+                        paddingLeft: "5px",
+                        height: "70px",
                         paddingTop: "2px",
-                        paddingTop:'22px'
+                        paddingTop: "22px",
                       }}
                     >
                       5
@@ -325,76 +381,51 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "60px",
-                        paddingTop:'22px'
+                        textAlign: "left",
+                        height: "70px",
+                        paddingTop: "22px",
                       }}
                     >
-                      Gerilim Tatbik Noktası
+                      Başlık Tipi
                     </Text>
                   </View>
-                  <View style={{ width: "160px",borderLeft:'1px solid black',height: "60px",
-                        paddingTop: "2px", }}>
+                  <View
+                    style={{
+                      width: "160px",
+                      borderLeft: "1px solid black",
+                      height: "70px",
+                      paddingTop: "2px",
+                    }}
+                  >
                     <View
                       style={{
                         display: "flex",
                         flexDirection: "row",
                         justifyContent: "space-between",
                         alignItems: "center",
-                        borderBottom:'1px solid black',
-                        width:'169px',
-                        height:'20px'
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                        height: "20px",
                       }}
                     >
                       <Text
                         style={{
                           paddingLeft: "11px",
-                          textAlign: "left",height: "18px",
+                          textAlign: "left",
+                          height: "18px",
                           paddingTop: "0px",
                         }}
                       >
-                        MERAM GIS TM
+                        Harici-Harici
                       </Text>
                       <Text
                         style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(-1px)'
-                        }}
-                      >
-                        X
-                      </Text>
-                    </View>
-                    <View
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-between",
-                        alignItems: "center",height: "20px",
-                        paddingTop: "2px",
-                        borderBottom:'1px solid black',
-                        width:'169px'
-                      }}
-                    >
-                      <Text
-                        style={{
-                          paddingLeft: "11px",
-                          textAlign: "left",
-                          paddingTop:'-2px'
-                        }}
-                      >
-                        MERAM GIS TM
-                      </Text>
-                      <Text
-                        style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(-1px)'
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
                         }}
                       >
                         X
@@ -406,7 +437,41 @@ function pdf() {
                         flexDirection: "row",
                         justifyContent: "space-between",
                         alignItems: "center",
-                        width:'169px'
+                        height: "20px",
+                        paddingTop: "2px",
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop: "-2px",
+                        }}
+                      >
+                        Dahili-Harici
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        width: "169px",
                       }}
                     >
                       <Text
@@ -415,16 +480,16 @@ function pdf() {
                           textAlign: "left",
                         }}
                       >
-                        MERAM GIS TM
+                        Dahili-Dahili
                       </Text>
                       <Text
                         style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(0px)'
+                          borderLeft: "1px solid black",
+                          height: "30px",
+                          paddingTop: "7px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(0px)",
                         }}
                       >
                         X
@@ -433,7 +498,6 @@ function pdf() {
                   </View>
                 </View>
               </View>
-
               <View
                 style={{
                   border: "1px solid black",
@@ -479,7 +543,8 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
@@ -500,7 +565,8 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "20px",
+                        paddingLeft: "5px",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -510,7 +576,8 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "20px",
+                        textAlign: "left",
+                        height: "20px",
                         paddingTop: "2px",
                       }}
                     >
@@ -520,52 +587,12 @@ function pdf() {
                   <Text
                     style={{
                       borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
+                      paddingLeft: "10px",
+                      height: "20px",
                       paddingTop: "2px",
                     }}
                   >
                     170 nF/km
-                  </Text>
-                </View>
-                <View
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid black",
-                    padding: "0px 5px",
-                    alignItems: "center",
-                  }}
-                >
-                  <View style={{ display: "flex", flexDirection: "row" }}>
-                    <Text
-                      style={{
-                        borderRight: "1px solid black",
-                        paddingRight: "10px",
-                        paddingLeft: "5px",height: "20px",
-                        paddingTop: "2px",
-                      }}
-                    >
-                      4
-                    </Text>
-                    <Text
-                      style={{
-                        paddingLeft: "5px",
-                        width: "200px",
-                        textAlign: "left",height: "20px",
-                        paddingTop: "2px",
-                      }}
-                    >
-                      Jeneratör Gücü
-                    </Text>
-                  </View>
-                  <Text
-                    style={{
-                      borderLeft: "1px solid black",
-                      paddingLeft: "10px",height: "20px",
-                      paddingTop: "2px",
-                    }}
-                  >
-                    132 kVA (prime)
                   </Text>
                 </View>
                 <View
@@ -583,9 +610,768 @@ function pdf() {
                       style={{
                         borderRight: "1px solid black",
                         paddingRight: "10px",
-                        paddingLeft: "5px",height: "60px",
+                        paddingLeft: "5px",
+                        height: "110px",
+                        paddingTop: "50px",
+                      }}
+                    >
+                      3
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "110px",
+                        paddingTop: "50px",
+                      }}
+                    >
+                      KESİT
+                    </Text>
+                  </View>
+                  <View
+                    style={{
+                      width: "160px",
+                      borderLeft: "1px solid black",
+                      paddingTop: "2px",
+                      height: "110px",
+                    }}
+                  >
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                        height: "20px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          height: "18px",
+                          paddingTop: "0px",
+                        }}
+                      >
+                        630 mm²
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        height: "20px",
                         paddingTop: "2px",
-                        paddingTop:'22px'
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop: "-2px",
+                        }}
+                      >
+                        1000 mm²
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        height: "20px",
+                        paddingTop: "2px",
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop: "-2px",
+                        }}
+                      >
+                        1600 mm²
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        height: "20px",
+                        paddingTop: "2px",
+                        borderBottom: "1px solid black",
+                        width: "169px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                          paddingTop: "-2px",
+                        }}
+                      >
+                        2000 mm²
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(-1px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        width: "169px",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingLeft: "11px",
+                          textAlign: "left",
+                        }}
+                      >
+                        2500 mm²
+                      </Text>
+                      <Text
+                        style={{
+                          borderLeft: "1px solid black",
+                          height: "22px",
+                          paddingTop: "3.5px",
+                          paddingLeft: "7px",
+                          paddingRight: "7px",
+                          transform: "translateY(0px)",
+                        }}
+                      >
+                        X
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      4
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      X
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    X
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+                fontFamily: "Roboto Regular",
+                marginTop: "40px",
+              }}
+            >
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text>TEST EKİBİ</Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Test Mühendisi
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Fikret Can AKGÖZ
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Test Teknikeri
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Serdal BİLİR
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      3
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Test Teknisyeni
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Zafer KOÇ
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      4
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Test Teknisyeni
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Taha KILIÇ
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      5
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Tır Şoförü
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    Mehmet UZUNOĞLU
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      6
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    ></Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  ></Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      7
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "140px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    ></Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  ></Text>
+                </View>
+              </View>
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text>KATILIMCILAR</Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Fikret KEÇERCİ
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    TEİAŞ 9. Bölge Müdürlüğü
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Sinan SONSES
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    PRYSMIAN
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      3
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      İ. Barış KÜÇÜKİBA
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    GES
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      4
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      Murat OKTAY
+                    </Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    SIEYUANS
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
                       }}
                     >
                       5
@@ -594,110 +1380,1208 @@ function pdf() {
                       style={{
                         paddingLeft: "5px",
                         width: "200px",
-                        textAlign: "left",height: "60px",
-                        paddingTop:'22px'
-                      }}
-                    >
-                      Gerilim Tatbik Noktası
-                    </Text>
-                  </View>
-                  <View style={{ width: "160px",borderLeft:'1px solid black',height: "60px",
-                        paddingTop: "2px", }}>
-                    <View
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        borderBottom:'1px solid black',
-                        width:'169px',
-                        height:'20px'
-                      }}
-                    >
-                      <Text
-                        style={{
-                          paddingLeft: "11px",
-                          textAlign: "left",height: "18px",
-                          paddingTop: "0px",
-                        }}
-                      >
-                        MERAM GIS TM
-                      </Text>
-                      <Text
-                        style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(-1px)'
-                        }}
-                      >
-                        X
-                      </Text>
-                    </View>
-                    <View
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-between",
-                        alignItems: "center",height: "20px",
+                        textAlign: "left",
+                        height: "20px",
                         paddingTop: "2px",
-                        borderBottom:'1px solid black',
-                        width:'169px'
+                      }}
+                    ></Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  ></Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      6
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    ></Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  ></Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid black",
+                    padding: "0px 5px",
+                    alignItems: "center",
+                  }}
+                >
+                  <View style={{ display: "flex", flexDirection: "row" }}>
+                    <Text
+                      style={{
+                        borderRight: "1px solid black",
+                        paddingRight: "10px",
+                        paddingLeft: "5px",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    >
+                      7
+                    </Text>
+                    <Text
+                      style={{
+                        paddingLeft: "5px",
+                        width: "200px",
+                        textAlign: "left",
+                        height: "20px",
+                        paddingTop: "2px",
+                      }}
+                    ></Text>
+                  </View>
+                  <Text
+                    style={{
+                      borderLeft: "1px solid black",
+                      paddingLeft: "10px",
+                      height: "20px",
+                      paddingTop: "2px",
+                    }}
+                  ></Text>
+                </View>
+              </View>
+            </View>
+            <Text style={styles.pageCounter}>2/7</Text>
+          </View>
+        </Page>
+        <Page
+          size="A4"
+          style={[styles.page, { flexDirection: "row", fontSize: "11px" }]}
+          orientation="landscape"
+        >
+          <View style={styles.section}>
+            <View
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+                fontFamily: "Roboto Regular",
+              }}
+            >
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "400px",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text
+                  style={{
+                    height: "70px",
+                    borderBottom: "1px solid black",
+                    paddingTop: "20px",
+                  }}
+                >
+                  AÇIKLAMA
+                </Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    height: "60px",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    borderBottom: "1px solid black",
+                  }}
+                >
+                  <Text
+                    style={{
+                      borderRight: "1px solid black",
+                      height: "100%",
+                      paddingTop: "23px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      fontFamily: "Roboto Medium",
+                    }}
+                  >
+                    1
+                  </Text>
+                  <Text style={{ maxWidth: "50px", margin: "0 auto" }}>
+                    TRAFO - A FİDERİ
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    height: "60px",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    borderBottom: "1px solid black",
+                  }}
+                >
+                  <Text
+                    style={{
+                      borderRight: "1px solid black",
+                      height: "100%",
+                      paddingTop: "23px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      fontFamily: "Roboto Medium",
+                    }}
+                  >
+                    2
+                  </Text>
+                  <Text style={{ maxWidth: "50px", margin: "0 auto" }}>
+                    TRAFO - B FİDERİ
+                  </Text>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    height: "60px",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <Text
+                    style={{
+                      borderRight: "1px solid black",
+                      height: "100%",
+                      paddingTop: "23px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      fontFamily: "Roboto Medium",
+                    }}
+                  >
+                    3
+                  </Text>
+                  <Text style={{ maxWidth: "50px", margin: "0 auto" }}>
+                    TRAFO - C (YEDEK)
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text style={{ borderBottom: "1px solid black" }}>KABLO</Text>
+                <View style={{ display: "flex", flexDirection: "row" }}>
+                  <View
+                    style={{
+                      width: "13%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      FAZ
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
                       }}
                     >
                       <Text
                         style={{
-                          paddingLeft: "11px",
-                          textAlign: "left",
-                          paddingTop:'-2px'
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
                         }}
                       >
-                        MERAM GIS TM
+                        A
                       </Text>
                       <Text
                         style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(-1px)'
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
                         }}
                       >
-                        X
+                        B
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>C</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        A
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        B
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>C</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        A
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        B
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>C</Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "29%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      İletken Kesiti (mm²)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        630
                       </Text>
                     </View>
                     <View
                       style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        width:'169px'
+                        height: "60px",
+                        borderBottom: "1px solid black",
                       }}
                     >
                       <Text
                         style={{
-                          paddingLeft: "11px",
-                          textAlign: "left",
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
                         }}
                       >
-                        MERAM GIS TM
+                        630
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        630
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "29%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Uzunluk (M)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        26,82
                       </Text>
                       <Text
                         style={{
-                          borderLeft:'1px solid black',
-                          height:'22px',
-                          paddingTop:'3.5px',
-                          paddingLeft:'7px',
-                          paddingRight:'7px',
-                          transform:'translateY(0px)'
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
                         }}
                       >
-                        X
+                        25,37
                       </Text>
+                      <Text style={{ paddingBottom: "3px" }}>23,71</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        48,26
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        47,34
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>47,58</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        62,57
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        61,92
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>61,76</Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "29%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Toplam Uzunluk (M)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        26,82
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        25,37
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>23,71</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        48,26
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        47,34
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>47,58</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        62,57
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        61,92
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>61,76</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text style={{ borderBottom: "1px solid black" }}>TEST</Text>
+                <View style={{ display: "flex", flexDirection: "row" }}>
+                  <View
+                    style={{
+                      width: "20%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Gerilim (kV)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        150
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        150
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        150
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "20%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Süre (dk)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        60
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        60
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          paddingTop: "21px",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        60
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "30%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Test Akımı (A)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,40
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,30
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}> 2,30</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,60
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,60
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>2,60</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,80
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        2,80
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}> 2,80</Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "30%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Rezonans Frekansı (Hz)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        163,42
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        164,77
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>166,29</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        147,32
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        147,81
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>148,04</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        138,96
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        139,38
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>139,75</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={{
+                  border: "1px solid black",
+                  width: "50%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Text style={{ borderBottom: "1px solid black" }}>
+                  UYGULAMA
+                </Text>
+                <View style={{ display: "flex", flexDirection: "row" }}>
+                  <View
+                    style={{
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                      width: "100%",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Sıcaklık (C°)
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        9
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        10
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>9</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        10
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        10
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>9</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        11
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        12
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>10</Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                      width: "100%",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Saat
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        11:36
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        15:23
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>18:25</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        12:12
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        16:03
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>19:28</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        10:50
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        15:09
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>18:45</Text>
+                    </View>
+                  </View>
+                  <View
+                    style={{
+                      width: "120%",
+                      borderRight: "1px solid black",
+                      paddingTop: "20px",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        height: "34.4px",
+                        borderBottom: "1px solid black",
+                      }}
+                    >
+                      Tarih
+                    </Text>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        03.03.24
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        03.03.24
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>03.03.24</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        02.03.24
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        02.03.24
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>02.03.24</Text>
+                    </View>
+                    <View
+                      style={{
+                        height: "60px",
+                        borderBottom: "1px solid black",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        01.03.24
+                      </Text>
+                      <Text
+                        style={{
+                          borderBottom: "1px solid black",
+                          paddingBottom: "3px",
+                        }}
+                      >
+                        01.03.24
+                      </Text>
+                      <Text style={{ paddingBottom: "3px" }}>01.03.24</Text>
                     </View>
                   </View>
                 </View>
