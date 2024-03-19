@@ -2587,6 +2587,28 @@ function pdf() {
                 </View>
               </View>
             </View>
+            <Text style={styles.pageHeader}>AÇIKLAMA VE ÖZEL DURUMLAR</Text>
+            <Text style={{ textAlign: "left", fontFamily: "Roboto Regular" }}>
+              İTM.394 Meram GIS TM 154 kV 630 mm² XLPE izoleli güç kablolarının
+              yüksek gerilim AC testi başarıyla tamamlanmıştır.
+            </Text>
+            <View
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                flexDirection: "row",
+                marginTop: "80px",
+              }}
+            >
+              <View>
+                <Text>ZRD Mühendislik A.Ş</Text>
+                <View style={{ display: "flex", flexDirection: "column",textAlign:'center',justifyContent:'center',marginTop:'70px' }}>
+                  <Text style={{paddingLeft:'12px'}}>Özgür KONUK</Text>
+                  <Text style={{textAlign:'center'}}>Elektrik Mühendisi</Text>
+                </View>
+              </View>
+              <Text> TEİAŞ</Text>
+            </View>
             <Text style={styles.pageCounter}>2/7</Text>
           </View>
         </Page>
