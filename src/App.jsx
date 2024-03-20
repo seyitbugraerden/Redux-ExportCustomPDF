@@ -1,4 +1,3 @@
-import React from "react";
 import PDF from "./components/PDF/pdf";
 function App() {
   return (
