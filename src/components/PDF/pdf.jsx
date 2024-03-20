@@ -371,7 +371,6 @@ function pdf() {
                         paddingRight: "10px",
                         paddingLeft: "5px",
                         height: "70px",
-                        paddingTop: "2px",
                         paddingTop: "22px",
                       }}
                     >
